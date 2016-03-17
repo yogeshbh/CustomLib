@@ -1,0 +1,25 @@
+{
+  "name": "SampleLib",
+  "version": "0.1.0",
+  "summary": "A short description of SampleLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SampleLib",
+  "license": "MIT",
+  "authors": {
+    "Yogesh": "yoges@test.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SampleLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SampleLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

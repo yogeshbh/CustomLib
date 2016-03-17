@@ -7,6 +7,7 @@
 //
 
 #import "YBViewController.h"
+#import "AirPrint.h"
 
 @interface YBViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    AirPrint *airPrinter = [[AirPrint alloc]init];
+    [airPrinter printString:@"Hello"];
 }
 
 - (void)didReceiveMemoryWarning
